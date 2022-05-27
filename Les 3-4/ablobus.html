@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- стили сложно -->
+    <style>
+        h1{
+            text-align: center;
+            color: blueviolet; 
+            font-size: 40pm;
+        }
+        h2{
+            text-align: right;
+            color: rgb(243, 134, 0);
+        }
+        p{
+            text-align: center;
+            color: darkgreen;
+        }
+        span{
+            text-align: center;
+            color: darkorchid;
+            background-color: aqua;
+        }
+        h3{
+            animation: both ;
+        }
+        /* обращаемся к id обязательно через # */
+        /* к классу нужно обращаться через . */
+        .uniq-word{
+            color: black;
+            background-color: bisque;
+
+        }
+    </style>
     <title>Document</title>
 </head>
+<!-- запомнить! сочетание клавиш для автовыравнивания: Shift+alt+f -->
+<!-- коммент: ctrl+слэш рядом с правым шифтом -->
 <body>
-
+    <h1> Lorem ipsum dolor sit amet.</h1>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <h4>Lorem ipsum dolor sit amet.</h4>
+    <h5>Lorem ipsum dolor sit amet.</h5>
+    <h6>Lorem ipsum dolor sit amet.</h6>
+    <!-- id - дает уникальное имя для текста -->
+    <!-- id лучше использовать для ссылок, а не для задания стиля текста -->
+    <!-- class можно использовать для того, чтоб задавать стили некоторым словам -->
+    <p>Lorem, ipsum dolor sit amet  <span class="uniq-word">consectetur </span>  adipisicing elit. At est beatae, quasi laborum eum maxime, voluptate
+        voluptas nostrum suscipit iste pariatur vero ipsum perspiciatis molestiae velit ea obcaecati tenetur ad!</p>
+    <p>Quibusdam possimus reiciendis voluptates cum laudantium! Beatae in at a, dicta omnis ullam dolorem? Labore,
+        autem? Eligendi aut corporis <span>officiis est, natus facere impedit dolorum,</span> suscipit ratione sequi deleniti
+        voluptate?</p>
+    <p>Quasi nulla repudiandae quas quisquam. Totam earum alias necessitatibus accusamus, ad aut incidunt impedit
+        corrupti, ipsum sint reiciendis.<span> Quae accusantium tempore culpa at repellendus cupiditate neque aliquid aut quas
+        deleniti!</span></p>
+    <p>Dolorem rem maiores facilis nam corrupti modi consequuntur velit ipsa quasi suscipit, nisi neque obcaecati
+        reprehenderit cupiditate? Ipsum officiis, repudiandae soluta qui aliquam nam nulla, veritatis perferendis sequi,
+        ea ut!</p>
+        <!-- нельзя использовать id дважды -->
+        <span>я спан 1</span>
+        <span>я спан 2</span>
+        <span>я спан 3</span>
+        <span>я спан 4</span>
+        <!-- гиперссылка, обязательный атребут href, без нее смысла от a нет -->
+        <a href="https://html5book.ru/html-tags/">next page</a>
+        <!-- ctrl+space вывод подсказок -->
 </body>
 </html>
